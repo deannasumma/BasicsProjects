@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fundamentals 3 Assignment</title>
+</head>
+<body>
+
+<script>
+    // Number 1
+    function add7(num) {
+      return num + 7;
+    }
+    answer1 = add7(9)
+    console.log("1. When num is equal to 9: " + answer1)
+    // Number 2
+    function multiply(a,b) {
+      return a * b;
+    }
+    answer2 = multiply(4,5)
+    console.log("2. When a is equal to 4 and b is equal to 5: " + answer2)
+    
+    // Number 3
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+    capstr = capitalize("dog");
+    console.log("3a. This word capitalized is: " + capstr)
+    capstr = capitalize("CAT");
+    console.log("3b. This word capitalized is: " + capstr)
+    capstr = capitalize("zEbRa");
+    console.log("3c. This word capitalized is: " + capstr)
+    
+    // Number 4
+    function lastletter(str) {
+      return str.charAt(str.length - 1);
+    }
+    lastlet = lastletter("product");
+    console.log("4. The last letter is: " + lastlet)
+</script>
+</body>
+</html>
